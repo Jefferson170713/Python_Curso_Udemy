@@ -1,6 +1,1 @@
-segundo commit
-Nome: Jefferson de almeida guimarães
-idade: 28
-curso: Eng.Produção
-https://github.com/Jefferson170713/Projeto_Python.git
-https://github.com/Jefferson170713/Python_Curso_Udemy.git
+testando git
