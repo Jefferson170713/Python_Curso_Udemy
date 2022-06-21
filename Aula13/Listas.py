@@ -20,6 +20,8 @@ print(lista_2)
 n = len(lista_2)
 for i in range(n):
     print(lista_2[i])
+print(max(lista_2))
+print(min(lista_2))
 print(f"lista organizada: {lista_2}")
 print("####################### 2")
 lista_3 = [17, True, 'str', 5.69]

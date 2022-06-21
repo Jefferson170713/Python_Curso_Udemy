@@ -16,6 +16,6 @@ print(l2)
 print("#############################")
 l3.extend('#####')
 print(l3)
-l3.insert(2, '[J]') # Se reparar bem, ele não substitui, essa função
+l3.insert(4, '[J]') # Se reparar bem, ele não substitui, essa função
                     # aloca todas as coisas pra frente e insereo novo valor
 print(l3)
