@@ -6,7 +6,7 @@ tabela = [
     ['Rayssa Vasconcelos', 13.3, 6],
     ['Jonas Coelho/Greco', 24.73, 9],
     ['Juliana Juh Julaien', 15.6, 7],
-    ["Herverton D'Caprio Bonitão Tapioca ", 19.8, 5],
+    ["Herverton D'Caprio Bonitão Tapioca", 19.8, 5],
 ]
 def mostra(a):
     print('********************************')
@@ -25,3 +25,5 @@ mostra(b)
 c = tabela
 c.sort(key=orgnize, reverse=True) # Do menor para o maior
 mostra(c)
+print(sorted(tabela, key= lambda x: x[2], reverse=True))
+print(sorted(tabela, key= lambda x: x[2], reverse=False))
