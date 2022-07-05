@@ -8,10 +8,20 @@
     diference(elementos apenas no set da esquerda)
     symmetric_diference(elementos que estão nos dois, mas não em ambos)
 """
-s1 = {1,2,3,4,5,6, 'testando com string'}
+s1 = set()
+s1.add('Jefferson')
+s1.add('Rayssa')
+s1.add('Jonas')
+s1.add('Alana')
+s1.add('Allan')
+s1.add('Herverton')
+s1.add('Juliana')
+print(f'O tamanho de Set1 é {len(s1)}')
 print(s1)
-print(type(s1))
 for i in s1:
     print(i)
-#for i in s1: Assim com os sets eles não permitem
-#    print(s1[i])
+print(f'Agora o tamanho de Set1 é {len(s1)}')
+s1.discard('Allan')
+for i in s1:
+    print(i)
+print(f'Agora o tamanho de Set1 é {len(s1)}')
