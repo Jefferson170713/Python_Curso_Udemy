@@ -16,9 +16,10 @@ t.speed(10000)
 for x in range(180):
     color = colors[x % len(colors)]
     t.pencolor(color)
-    t.width(x / 60 + 1)
+    t.width(x / 45 + 1)
     t.forward(x)
-    t.right(78)
+    t.right(79)
+    #t.left(90)
     print(color)
 
 turtle.done()
