@@ -4,7 +4,7 @@
     **************************************************
 """
 # repare que aqui eu não posso repara com o "*" a função recebe
-# o argumento, porém vira uma tupla e por isso seus dados não podem ser alterados
+# o argumento, porém vira uma tupla e por isso seus _dados não podem ser alterados
 # por isso precisamos passar para um outro tipo de variável para que possámos trablhar
 # uma lista
 
