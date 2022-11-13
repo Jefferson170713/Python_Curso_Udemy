@@ -15,3 +15,6 @@ class PessoaEscrito:
     @ferramenta.setter
     def ferramenta(self, trabalhando):
         self.__ferramenta = trabalhando
+
+    def Mostrando_meu_nome(self):
+        print(self.__nome)

@@ -7,5 +7,5 @@ class Caneta:
     def marca(self):
         return self.__marca
 
-    def EscrevendoCaneta(self):
-        print('Escrevendo com a Caneta')
+    def Escrevendo(self):
+        print(f'Caneta {self.__marca} está escrevendo com a Caneta ...')

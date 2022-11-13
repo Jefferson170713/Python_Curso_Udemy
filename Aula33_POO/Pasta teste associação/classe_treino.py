@@ -1,6 +1,6 @@
 # [J]efferson , Eng. De Produção
 class Treino:
-    def treinoPeito(self, braço):
+    def __init__(self, braço):
         self.__braço = braço
 
     @property

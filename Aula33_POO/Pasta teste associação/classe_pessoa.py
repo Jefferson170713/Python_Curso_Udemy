@@ -8,10 +8,10 @@ class Pessoa:
     def nome(self):
         return self.__nome
     @property
-    def treinandoAcademmia(self):
+    def treinandoAcademia(self):
         return self.__treiando
 
-    @treinandoAcademmia.setter
+    @treinandoAcademia.setter
     def treinandoAcademia(self, treinando):
         self.__treiando = treinando
 
