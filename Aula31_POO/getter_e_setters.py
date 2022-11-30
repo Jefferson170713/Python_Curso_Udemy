@@ -11,14 +11,14 @@ class Produto:
     #Getter
     @property
     def valor(self): # Aqui eu gero o getter ou obtenho o valor, repare qe o nome da variável mudou um pouco.
-        return self._valor # ficou este nome para colocar no setter
+        return self.valore # ficou este nome para colocar no setter
 
     @valor.setter
     def valor(self, preco): # Aqui é o setter, com isso, repare que é o mesmo nome da variável, também temos uma função que verifica se é str
         if isinstance(preco, str):
             preco = float(preco.replace("R$", ""))# Aqui troca o R$ po nada e ao mesmo tempo que faz o casting para float.
-        self._valor = preco
-        return self._valor
+        self.valore = preco
+        return self.valore
 
 
 prod = Produto('Camisa', 45)
