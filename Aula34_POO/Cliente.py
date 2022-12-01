@@ -1,4 +1,4 @@
-# [J]efferson , Eng. De Produçã0
+# [J]efferson , Eng. De Produção
 from Pessoa import Pessoa
 
 class Cliente(Pessoa):
