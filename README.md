@@ -1,4 +1,4 @@
-# Python Curso Udemy
+# Curso Python 
 ### Meu conteúdo ao longo das aulas e progressão de código pessoal.
     O estudo abrange:
         - Linguagem Python.
@@ -10,3 +10,5 @@
             - scikit learn
         - Estrutura de dados
         - Machine learn
+        - Visão computacional
+
