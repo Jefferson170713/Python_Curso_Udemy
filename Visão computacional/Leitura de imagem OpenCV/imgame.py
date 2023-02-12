@@ -27,7 +27,7 @@ while caputara.isOpened():
         cv2.rectangle(cinza, (x, y), (x + w, y + h), (0, 255, 0), 1)
 
     cv2.imshow('color', frame)
-    cv2.imshow('gray', cinza)
+    cv2.imshow('black', cinza)
 
     if cv2.waitKey(5) & 0xFF == 27:
       break
